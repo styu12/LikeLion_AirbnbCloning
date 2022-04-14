@@ -384,144 +384,144 @@ main .sec04 .trip-wrapper .trip-box button:hover {
 }
 
 main .sec05 {
-    background-size: cover;
-    height: 700px;
-    border-radius: 10px;
-    background-image: url("./image_footer/sec05_background.jpg");
+  background-size: cover;
+  height: 700px;
+  border-radius: 10px;
+  background-image: url("./image_footer/sec05_background.jpg");
 }
 
 main .sec05 .hosting-QA p {
-    font-size: 95px;
-    font-weight: bolder;
-    letter-spacing: -3px;
-    line-height: 110%;
-    display: flex;
-    justify-content: start;
-    align-items: flex-start;
-    color: white;
-    padding: 80px;
+  font-size: 95px;
+  font-weight: bolder;
+  letter-spacing: -3px;
+  line-height: 110%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  color: white;
+  padding: 80px;
 }
 
 main .sec05 .hosting-QA span{
-    font-size: 15px;
-    font-weight: 550;
-    justify-content: start;
-    background-color: white;
-    padding-inline: 25px;
-    padding-block: 13px;
-    margin: 80px;
-    border-radius: 10px;
-    cursor: pointer;
+  font-size: 15px;
+  font-weight: 550;
+  justify-content: start;
+  background-color: white;
+  padding-inline: 25px;
+  padding-block: 13px;
+  margin: 80px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 main .sec05 .hosting-QA span:hover {
-    background: rgb(220,220,220)
+  background: rgb(220,220,220)
 }
 
 footer {
-    background-color: rgb(247, 247, 247);
-    background-size: cover;
-    padding: 30px 80px;
+  background-color: rgb(247, 247, 247);
+  background-size: cover;
+  padding: 30px 80px;
 }
 
 footer .itembox {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 50px;
-    padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding-top: 20px;
 } 
 
 footer .itemitem {
-    min-width: 350px;
+  min-width: 350px;
 }
 
 footer .itembox span {
-    font-weight: 550;
-    color: black;
-    display: block;
-    padding-bottom: 10px;
+  font-weight: 550;
+  color: black;
+  display: block;
+  padding-bottom: 10px;
 }
 
 footer .itembox ul {
-    list-style: none;
-    padding-left: 0px;
-    line-height: 250%;
-    font-size: 14px;
-    color: black;
+  list-style: none;
+  padding-left: 0px;
+  line-height: 250%;
+  font-size: 14px;
+  color: black;
 }
 
 footer .itembox .item:hover {
-    text-decoration: underline;
-    cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 footer .appendix {
-    display: flex;
-    justify-content: space-between;
-    border-top: solid 1px rgb(220,220,220);
-    padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px rgb(220,220,220);
+  padding-top: 10px;
 }
 
 footer .appendix .content {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    list-style: none;
-    flex-wrap: nowrap;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: nowrap;
 }
 
 footer .appendix .content span {
-    font-weight: 300;
-    font-size: 14px;
-    color: black;
-    display: block;
-    margin-right: 10px;
-    margin-top: 15px;
+  font-weight: 300;
+  font-size: 14px;
+  color: black;
+  display: block;
+  margin-right: 10px;
+  margin-top: 15px;
 } 
 
 footer .appendix .content .content-item:hover {
-    text-decoration: underline;
-    cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 
 footer .appendix .lan-cur {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 14px;
-    font-weight: 550;
-    color: black;
-    cursor: pointer;
-    height: 10px;
-    margin-top: 20px;
-    padding-left: 150px;
-    text-decoration: underline;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  font-weight: 550;
+  color: black;
+  cursor: pointer;
+  height: 10px;
+  margin-top: 20px;
+  padding-left: 150px;
+  text-decoration: underline;
 } 
 
 footer .appendix .lan-cur .span-lan-cur:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 footer .appendix .lan-cur span {
-    display: block;
-    padding: 10px;
+  display: block;
+  padding: 10px;
 }
 
 footer .language {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 footer .current {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 footer .appendix .icon-container {
-    display: flex;
-    justify-content: flex-end;
-    cursor: pointer;
-    margin-top: 10px;
-    height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-top: 10px;
+  height: 30px;
 }
