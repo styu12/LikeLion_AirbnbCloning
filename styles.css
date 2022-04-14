@@ -41,8 +41,14 @@ header {
   border-bottom: white solid 0.01px;
 }
 
+#myinfo1 {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
 .topmenucontainer {
-  width: 300px;
+  width: 290px;
   padding: 0px 24px;
 }
 
@@ -115,6 +121,14 @@ header {
   margin-left: 20px;
 }
 
+.globe{
+  margin-left: 5px;
+}
+.myinfo {
+  width: 70px;
+  height: 40px;
+  margin-left: 6px;
+}
 .search-number {
   width: 170px;
   display: flex;
@@ -127,7 +141,7 @@ header {
   width: 45px;
   height: 45px;
   padding: 4px;
-  margin-top: 6px;
+  margin-top: 10px;
   border-radius: 100%;
   background-color: #ff385c;
   position: relative;
@@ -150,6 +164,7 @@ a:hover {
   color: black;
   font-size: 12px;
   font-weight: bold;
+  margin-left: 2px;
 }
 .leftmargin {
   margin-left: 20px;
@@ -186,7 +201,7 @@ main .sec02 {
     justify-content: flex-end;
     align-items: center;
     padding-bottom: 120px;
-    background-image: url('https://img2.10bestmedia.com/Images/Photos/379809/GettyImages-904960682_54_990x660.jpg');
+    background-image: url('https://images.unsplash.com/photo-1631635589499-afd87d52bf64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80');
     background-position: center center;
     background-size: cover;
     border-radius: 20px;
@@ -304,12 +319,12 @@ main .sec04 .trip-wrapper .trip-box {
     padding: 55px;
 }
 main .sec04 .trip-wrapper .trip-box:nth-child(1) {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmZhsU7KHB1GQSnsuzk9ttSWkdsR8qit4CLQ&usqp=CAU');
+    background-image: url('https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80');
     background-position: center center;
     background-size: cover;
 }
 main .sec04 .trip-wrapper .trip-box:nth-child(2) {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRObx4mTD64Z3VP7C1Tlhhwt0fwZYWhikvKQA&usqp=CAU');
+    background-image: url('https://images.unsplash.com/photo-1502791451862-7bd8c1df43a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80');
     background-position: center center;
     background-size: cover;
 }
