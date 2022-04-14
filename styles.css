@@ -10,7 +10,7 @@ header {
 .aside {
   text-align: center;
   text-decoration: underline;
-  padding: 16px;
+  padding: 20px 0 40px 0;
   font-size: 14px;
 }
 
@@ -48,7 +48,7 @@ header {
 }
 
 .topmenucontainer {
-  width: 290px;
+  width: 280px;
   padding: 0px 24px;
 }
 
@@ -59,6 +59,8 @@ header {
   font-size: 16px;
   list-style: none;
   padding-left: 0px;
+  font-weight: 350;
+  font-family: -apple-system;
 }
 
 .mymenucontainer {
@@ -125,8 +127,8 @@ header {
   margin-left: 5px;
 }
 .myinfo {
-  width: 70px;
-  height: 40px;
+  width: 80px;
+  height: 44px;
   margin-left: 6px;
 }
 .search-number {
@@ -362,7 +364,7 @@ main .sec04 .trip-wrapper .trip-box button:hover {
   letter-spacing: -0.02em;
   justify-content: center;
   text-align: center;
-  padding: 0 30px;
+  padding: 0 50px;
 }
 
 .bottombutton {
