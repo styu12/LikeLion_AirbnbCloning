@@ -19,7 +19,7 @@ main .sec02 {
     background-image: url('https://img2.10bestmedia.com/Images/Photos/379809/GettyImages-904960682_54_990x660.jpg');
     background-position: center center;
     background-size: cover;
-    border-radius: 40px;
+    border-radius: 20px;
     margin-bottom: 80px;
 }
 main .sec02 h1 {
@@ -130,8 +130,7 @@ main .sec04 .trip-wrapper .trip-box {
     width: 48%;
     height: 600px;
     border-radius: 20px;
-    padding: 25px;
-    background-color: black;
+    padding: 55px;
 }
 main .sec04 .trip-wrapper .trip-box:nth-child(1) {
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmZhsU7KHB1GQSnsuzk9ttSWkdsR8qit4CLQ&usqp=CAU');
