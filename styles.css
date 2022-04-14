@@ -232,7 +232,8 @@ main .sec03 {
     margin-bottom: 80px;
 }
 main .sec03 > h1 {
-    font-size: 25px;
+    font-size: 40px;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 main .sec03 .place-wrapper {
@@ -241,12 +242,13 @@ main .sec03 .place-wrapper {
 }
 main .sec03 .place-wrapper .place-box {
     width: 23%;
-    height: 370px;
+    height: 400px;
     display: flex;
     flex-direction: column;
 }
 main .sec03 .place-wrapper .place-box > div {
     flex: 1;
+    padding: 25px 15px;
 }
 main .sec03 .place-wrapper .place-box .place-img {
     background-color: black;
@@ -274,36 +276,36 @@ main .sec03 .place-wrapper .place-box4 .place-img {
 }
 main .sec03 .place-wrapper .place-box .place-desc {
     background-color: red;
-    padding: 25px 15px;
     color: white;
     border-radius: 0 0 20px 20px;
 }
 main .sec03 .place-wrapper .place-box .place-desc h2 {
-    font-size: 28px;
+    font-size: 35px;
     font-weight: 700;
     margin-bottom: 15px;
 }
 main .sec03 .place-wrapper .place-box .place-desc p {
-    font-size: 18px;
+    font-size: 22px;
 }
 main .sec03 .place-wrapper .place-box1 .place-desc {
-    background-color: #fab1a0;
+    background-color: rgb(222, 49, 81);
 }
 main .sec03 .place-wrapper .place-box2 .place-desc {
-    background-color: #ff7675;
+    background-color: rgb(204, 45, 74);
 }
 main .sec03 .place-wrapper .place-box3 .place-desc {
-    background-color: #ffeaa7;
+    background-color: rgb(217, 59, 48);
 }
 main .sec03 .place-wrapper .place-box4 .place-desc {
-    background-color: #fdcb6e;
+    background-color: rgb(188, 26, 110);
 }
 
 main .sec04 {
     margin-bottom: 80px;
 }
 main .sec04 > h1 {
-    font-size: 25px;
+    font-size: 40px;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 main .sec04 .trip-wrapper {
