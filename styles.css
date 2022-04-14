@@ -165,7 +165,7 @@ a:hover {
 }
 
 main {
-    padding: 80px 80px 0 80px; 
+    padding: 80px; 
     background: linear-gradient(to bottom, black 500px, white 500px);
 }
 
@@ -406,14 +406,14 @@ main .sec05 .hosting-QA span:hover {
 footer {
     background-color: rgb(247, 247, 247);
     background-size: cover;
-    padding: 60px;
+    padding: 80px;
 }
 
 footer .itembox {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 20px;
+    margin-bottom: 50px;
 } 
 
 footer .itemitem {
@@ -423,6 +423,8 @@ footer .itemitem {
 footer .itembox span {
     font-weight: 550;
     color: black;
+    display: block;
+    padding-bottom: 10px;
 }
 
 footer .itembox ul {
