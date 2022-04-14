@@ -164,6 +164,11 @@ a:hover {
   cursor: pointer;
 }
 
+main {
+    padding: 80px 10% 0 10%; 
+    background: linear-gradient(to bottom, black 30%, white 30%);
+}
+
 .searchbox input {
   cursor: default;
   background: transparent;
@@ -172,6 +177,158 @@ a:hover {
 
 .rightborder {
   border-right: rgb(214, 206, 206) 2px solid;
+}
+main .sec02 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 120px;
+    background-image: url('https://img2.10bestmedia.com/Images/Photos/379809/GettyImages-904960682_54_990x660.jpg');
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+main .sec02 h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+main .sec02 button {
+    background-color: white;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #a29bfe;
+    cursor: pointer;
+}
+main .sec02 button:hover {
+    background-color: #a29bfe;
+    color: white;
+}
+main .sec03 {
+    margin-bottom: 80px;
+}
+main .sec03 > h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+main .sec03 .place-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+main .sec03 .place-wrapper .place-box {
+    width: 23%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+}
+main .sec03 .place-wrapper .place-box > div {
+    flex: 1;
+}
+main .sec03 .place-wrapper .place-box .place-img {
+    background-color: black;
+    border-radius: 20px 20px 0 0;
+}
+main .sec03 .place-wrapper .place-box1 .place-img {
+    background-image: url('https://a0.muscache.com/im/pictures/19d4c139-3615-4440-b5e3-55ee3f87e240.jpg?im_w=320');
+    background-position: center center;
+    background-size: cover;
+}
+main .sec03 .place-wrapper .place-box2 .place-img {
+    background-image: url('https://a0.muscache.com/im/pictures/55250d06-92f1-4d22-be89-9f20f2bcb1fc.jpg?im_w=320');
+    background-position: center center;
+    background-size: cover;
+}
+main .sec03 .place-wrapper .place-box3 .place-img {
+    background-image: url('https://a0.muscache.com/im/pictures/e25ccbca-1515-4510-baa6-9d2c473865dc.jpg?im_w=320');
+    background-position: center center;
+    background-size: cover;
+}
+main .sec03 .place-wrapper .place-box4 .place-img {
+    background-image: url('https://a0.muscache.com/im/pictures/ffde0c4b-1889-4d11-bb00-41411d34fdfc.jpg?im_w=320');
+    background-position: center center;
+    background-size: cover;
+}
+main .sec03 .place-wrapper .place-box .place-desc {
+    background-color: red;
+    padding: 25px 15px;
+    color: white;
+    border-radius: 0 0 20px 20px;
+}
+main .sec03 .place-wrapper .place-box .place-desc h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+main .sec03 .place-wrapper .place-box .place-desc p {
+    font-size: 18px;
+}
+main .sec03 .place-wrapper .place-box1 .place-desc {
+    background-color: #fab1a0;
+}
+main .sec03 .place-wrapper .place-box2 .place-desc {
+    background-color: #ff7675;
+}
+main .sec03 .place-wrapper .place-box3 .place-desc {
+    background-color: #ffeaa7;
+}
+main .sec03 .place-wrapper .place-box4 .place-desc {
+    background-color: #fdcb6e;
+}
+
+main .sec04 {
+    margin-bottom: 80px;
+}
+main .sec04 > h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+main .sec04 .trip-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main .sec04 .trip-wrapper .trip-box {
+    width: 48%;
+    height: 600px;
+    border-radius: 20px;
+    padding: 55px;
+}
+main .sec04 .trip-wrapper .trip-box:nth-child(1) {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmZhsU7KHB1GQSnsuzk9ttSWkdsR8qit4CLQ&usqp=CAU');
+    background-position: center center;
+    background-size: cover;
+}
+main .sec04 .trip-wrapper .trip-box:nth-child(2) {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRObx4mTD64Z3VP7C1Tlhhwt0fwZYWhikvKQA&usqp=CAU');
+    background-position: center center;
+    background-size: cover;
+}
+main .sec04 .trip-wrapper .trip-box h2 {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+main .sec04 .trip-wrapper .trip-box button {
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 20px;    
+    cursor: pointer;
+}
+main .sec04 .trip-wrapper .trip-box button:hover {
+    background-color: black;
+    color: white;
 }
 
 .bottomcontainer {
