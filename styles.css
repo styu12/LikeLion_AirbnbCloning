@@ -147,6 +147,7 @@ main .sec04 .trip-wrapper .trip-box h2 {
     color: white;
     font-weight: 700;
     margin-bottom: 40px;
+    line-height: 1.3;
 }
 main .sec04 .trip-wrapper .trip-box button {
     background-color: white;
